@@ -1,28 +1,18 @@
 <template>
   <main>
-    <header>
-      <Navbar />
-    </header>
-
-    <section>
-      <router-view/>
-    </section>
-
-
-    <nav>
+    <router-view/>
+    <!-- <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-    </nav>
+    </nav> -->
   </main>  
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue';
+
 
 export default {
-  components: {
-    Navbar
-  },
+  
 }
 </script>
 
@@ -40,4 +30,10 @@ export default {
   a, a:hover {
     text-decoration: none;
   }
+
+  main{
+    width: 100%;
+    overflow: hidden;
+  }
+
 </style>

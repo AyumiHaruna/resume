@@ -1,15 +1,16 @@
 <template>
     <nav ref="navbar">
       <div class="logo">
-        <a href="#"><img src="@/assets/trans-icon.png" alt="transgender icon" />Ayumi</a>
+        <a href="#">
+            <!-- <img src="../assets/trans-icon.png" alt="transgender icon" /> -->
+            Ayumi
+        </a>
       </div>
-      <div class="toggle">
-        <a href="#" @click.prevent="toggleMenu"><ion-icon name="menu-outline"></ion-icon></a>
-      </div>
+      
       <div>
         <ul class="menu" ref="menu">
-          <li><a href="#">Acerca de</a></li>
-          <li><a href="#">Habilidads</a></li>
+          <li><a href="#">Quién_soy?</a></li>
+          <li><a href="#">Habilidades</a></li>
           <li><a href="#">Experiencia</a></li>
           <li><a href="#">Estudios</a></li>
           <li><a href="#">Proyectos</a></li>
@@ -17,14 +18,17 @@
           <li><a href="#">Contacto</a></li>        
         </ul>  
       </div>
+
+      <div class="toggle">
+        <a href="#" @click.prevent="toggleMenu"><ion-icon name="menu-outline"></ion-icon></a>
+      </div>
     </nav>
 </template>
 
 <script>
 export default {
-    name: 'Navbar',
+    name: 'HomeNav',
     mounted() {
-        window.addEventListener('scroll', this.handleScroll);
     },
     methods: {
         toggleMenu() {
@@ -36,38 +40,26 @@ export default {
                 this.$refs.menu.classList.add('open')
             }
         },
-        handleScroll() {
-            // console.log(this.$refs.navbar.classList);
-            if( window.pageYOffset > 100){
-                console.log('aqui');
-                this.$refs.navbar.classList.add('fixTop');
-            } else {
-                this.$refs.navbar.classList.remove('fixTop');
-            }
-        }
     },
 }
 </script>
 
-<style>
+<style scoped>
     nav{
         position: relative;
-        background: #222;
-        padding: 5px 20px;
+        padding: 1.2em 20px;
         display: flex;
         align-items: center;
-        width: 100vw;
-    }
-    nav.fixTop{
-        position: fixed;
-        animation-name: opacityMenu;
-        animation-duration: 0.5s;
+        justify-content:space-evenly;
+        width: 100%;
+        background: #000;
+        z-index: 9;
     }
     nav a {
         color: #fff;
     }
     nav a:hover {
-        color: #d86ee2;
+        color: #e389eb;
     }
     
     .logo{
@@ -77,8 +69,8 @@ export default {
         display: flex;
         align-items: center;
         font-weight: 300;
-        font-size: 1.5rem;
-        letter-spacing: 1.5px;
+        font-size: 1.8rem;
+        letter-spacing: 5px;
     }
     .logo a:hover {
         color: #fff;
@@ -92,22 +84,33 @@ export default {
         display: flex;
         align-items: center;
         list-style: none;
+        width: 0;
+        overflow: hidden;
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    .menu.open{
+        animation-name: menuDesOpen;
+        animation-duration: 0.5s;
+        width: auto;
+    }
+    .menu.close{
+        animation-name: menuDesClose;
+        animation-duration: 0.4s;
     }
     .menu li{
         padding: 15px 10px;
-        font-size: 16px;
     }
 
     .toggle {
-        font-size: 30px;
-        display: none;
+        font-size: 2.5em;
+        margin-top: 5px;
     }
 
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         nav{
         display: block;
-        position: relative;
         padding: 15px 20px;
         }
 
@@ -123,11 +126,11 @@ export default {
         .menu.open, .toggle{
         display: block;
         height: auto;
-        animation-name: menuOpen;
+        animation-name: menuMovOpen;
         animation-duration: 0.5s;
         }
         .menu.close {
-        animation-name: menuClose;
+        animation-name: menuMovClose;
         animation-duration: 0.3s;
         }
         .toggle{
@@ -138,16 +141,20 @@ export default {
     }
 
 
-    @keyframes menuOpen {
+    @keyframes menuDesOpen {
+        0%   { width:0; font-size: 0.5rem; }
+        100% { width: 49rem; font-size: 1.1rem; }
+    }
+    @keyframes menuDesClose {
+        0%   { width:49rem; font-size: 1.1rem; }
+        100% { width: 0; font-size: 0.5rem; }
+    }
+    @keyframes menuMovOpen {
         0%   {height:0; }
         100% {height:20em;}
     }
-    @keyframes menuClose {
+    @keyframes menuMovClose {
         0%   {height:20em; }
         100% {height:0;}
-    }
-    @keyframes opacityMenu {
-        0%   { opacity: 0; }
-        100% { opacity: 1; }
     }
 </style>
