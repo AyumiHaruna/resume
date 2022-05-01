@@ -29,8 +29,6 @@ export default {
     .infoCard{
         position: absolute !important;
         width: 35vw;
-        margin-left: 10%;
-        margin-top: 5%;
         z-index: 2;
         border-radius: 5px;
         background: rgba(122, 122, 122, 0.1);

@@ -125,6 +125,7 @@ export default {
     .infoVer1{
         z-index:2;
         margin-top: 5%;
+        margin-left: 10%;
     }    
 
     @media (max-width: 1200px) {
@@ -164,6 +165,7 @@ export default {
             width: 6.5em;
             height: 6.5em;
         }
+        
     }
 
     @media (max-width: 992px) {
@@ -205,6 +207,10 @@ export default {
             height: 4.5em;
             border: solid 15px #591981;
         }
+        .infoVer1{
+            margin-top: 5%;
+            margin-left: 5%;
+        }    
     }
 
     @media (max-width: 768px) {
