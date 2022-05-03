@@ -50,6 +50,7 @@ export default {
         background-repeat: repeat;
         /* background-size: auto 100%; */
         height: 35vw;
+        overflow: hidden;
     }
 
     .starBg{
