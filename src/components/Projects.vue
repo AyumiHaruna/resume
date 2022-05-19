@@ -42,42 +42,42 @@ export default {
         },
         {
           name: 'Web SMC',
-          pic: 'img/projects/thumbs/web_smc.jpg',
+          pic: 'img/projects/thumbs/web_smc.JPG',
           tools: ['vue', 'js', 'bootstrap', 'css', 'html'],
           git: 'https://github.com/AyumiHaruna/cardio',
           url: 'https://constanciasdmundialdelcorazon.com.mx/',
         },
         {
           name: 'Web AyR',
-          pic: 'img/projects/thumbs/ayr.jpg',
+          pic: 'img/projects/thumbs/ayr.JPG',
           tools: ['js', 'bootstrap', 'css', 'html'],
           git: '',
           url: 'https://alasyraices.gob.mx/',
         },
         {
           name: 'ComunSticker',
-          pic: 'img/projects/thumbs/comunSticker.jpg',
+          pic: 'img/projects/thumbs/comunSticker.JPG',
           tools: ['js', 'bootstrap', 'css', 'html'],
           git: '',
           url: 'https://alasyraices.gob.mx/comunsticker.html',
         },
         {
           name: 'Web Calacas',
-          pic: 'img/projects/thumbs/calacas.jpg',
+          pic: 'img/projects/thumbs/calacas.JPG',
           tools: ['js', 'bootstrap', 'css', 'html'],
           git: 'https://github.com/AyumiHaruna/Calacas',
           url: 'https://ayumiharuna.github.io/Calacas/calacas.html',
         },
         {
           name: 'Control de Almacén',
-          pic: 'img/projects/thumbs/almacen.jpg',
+          pic: 'img/projects/thumbs/almacen.JPG',
           tools: ['jQuery', 'js', 'laravel', 'php', 'mysql', 'bootstrap', 'css', 'html'],
           git: 'https://github.com/AyumiHaruna/siadcncp',
           url: ''
         },
         {
           name: 'Sicofi',
-          pic: 'img/projects/thumbs/sicofi.jpg',
+          pic: 'img/projects/thumbs/sicofi.JPG',
           tools: ['jQuery', 'js', 'php', 'mysql', 'css', 'html'],
           git: 'https://github.com/AyumiHaruna/sicofi',
           url: ''
@@ -130,35 +130,35 @@ export default {
         },
         {
           name: "Chopper's room",
-          pic: '../img/projects/thumbs/choppersRoom.png',
+          pic: 'img/projects/thumbs/choppersRoom.png',
           tools: ['blender'],
           git: '',
           url: 'https://twitter.com/i/status/1504277529464614917'
         },
         {
           name: "BMO",
-          pic: '../img/projects/thumbs/bmo.png',
+          pic: 'img/projects/thumbs/bmo.png',
           tools: ['blender'],
           git: '',
           url: 'https://pbs.twimg.com/media/FBIty5OXsAI15jr?format=png&name=small'
         },
         {
           name: "spooky",
-          pic: '../img/projects/thumbs/spooky.jpg',
+          pic: 'img/projects/thumbs/spooky.jpg',
           tools: ['blender'],
           git: '',
           url: 'https://pbs.twimg.com/media/FA6U-C8WYAkEq3C?format=jpg&name=small'
         },
         {
           name: "party's Bar",
-          pic: '../img/projects/thumbs/partysBar.png',
+          pic: 'img/projects/thumbs/partysBar.png',
           tools: ['blender'],
           git: '',
           url: 'https://pbs.twimg.com/media/Ews_O7WWQAME2tK?format=jpg&name=small'
         },
         {
           name: "Going Merry",
-          pic: '../img/projects/thumbs/goingMerry.png',
+          pic: 'img/projects/thumbs/goingMerry.png',
           tools: ['blender'],
           git: '',
           url: 'https://pbs.twimg.com/media/EZ8CDLfXkAEXCu5?format=jpg&name=900x900'
@@ -167,21 +167,21 @@ export default {
       unityProjects: [
         {
           name: 'Stage Select (touch)',
-          pic: '../img/projects/thumbs/stageSelect.png',
+          pic: 'img/projects/thumbs/stageSelect.png',
           tools: ['unity'],
           git: '',
           url: 'https://ayumiharuna.github.io/StageSelectSystem/index.html'
         },
         {
           name: 'Dog Runner',
-          pic: '../img/projects/thumbs/dogRunner.png',
+          pic: 'img/projects/thumbs/dogRunner.png',
           tools: ['unity'],
           git: '',
           url: 'https://ayumiharuna.github.io/dogRunner/'
         },
         {
           name: 'Nekonoid',
-          pic: '../img/projects/thumbs/nekonoid.png',
+          pic: 'img/projects/thumbs/nekonoid.png',
           tools: ['unity'],
           git: '',
           url: 'https://ayumiharuna.github.io/Nekonoid/'

@@ -11,7 +11,7 @@
                 <div class="toolImg" 
                     v-for="(tool, toolId) in project.tools" 
                     :key="toolId"
-                    :style="`background-image: url('../img/${tool}Logo.png')`" >
+                    :style="`background-image: url('img/${tool}Logo.png')`" >
                     <span class="tooltiptext">
                         {{tool}}
                     </span>
