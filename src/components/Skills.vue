@@ -39,47 +39,47 @@ export default {
             skills: [
                 {
                     name:  'HTML',
-                    pic: '../img/htmlLogo.png',
+                    pic: 'img/htmlLogo.png',
                 },
                 {
                     name:  'CSS',
-                    pic: '../img/cssLogo.png',
+                    pic: 'img/cssLogo.png',
                 },
                 {
                     name:  'JS',
-                    pic: '../img/jslogo.png',
+                    pic: 'img/jslogo.png',
                 },
                 {
                     name:  'PHP',
-                    pic: '../img/phpLogo.png',
+                    pic: 'img/phpLogo.png',
                 },
                 {
                     name:  'Bootstrap',
-                    pic: '../img/bootstrapLogo.png',
+                    pic: 'img/bootstrapLogo.png',
                 },
                 {
                     name:  'jQuery',
-                    pic: '../img/jqueryLogo.png',
+                    pic: 'img/jqueryLogo.png',
                 },
                 {
                     name:  'Vue.js',
-                    pic: '../img/vueLogo.png',
+                    pic: 'img/vueLogo.png',
                 },
                 {
                     name:  'MySQL',
-                    pic: '../img/mysqlLogo.png',
+                    pic: 'img/mysqlLogo.png',
                 },
                 {
                     name:  'Laravel',
-                    pic: '../img/laravelLogo.png',
+                    pic: 'img/laravelLogo.png',
                 },
                 {
                     name:  'Blender',
-                    pic: '../img/blenderLogo.png',
+                    pic: 'img/blenderLogo.png',
                 },
                 {
                     name:  'SparkAr',
-                    pic: '../img/sparkLogo.png',
+                    pic: 'img/sparkARLogo.png',
                 },
             ]
         }

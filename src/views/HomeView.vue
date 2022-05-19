@@ -10,7 +10,12 @@
     <Studies />
   </section>
 
-  <section style="background:#220136; height: 20em; z-index:2;"></section>
+  <Experience />
+
+  <Projects />
+  
+  <Contact />
+
 </template>
 
 <script>
@@ -18,9 +23,9 @@ import HomeNav from '@/components/HomeNav.vue';
 import MainCard from '@/components/MainCard.vue';
 import Skills from '@/components/Skills.vue';
 import Studies from '@/components/Studies.vue';
-
-import 'animate.css';
-
+import Experience from '@/components/Experience.vue';
+import Projects from '@/components/Projects.vue';
+import Contact from '@/components/Contact.vue';
 
 export default {
   name: 'HomeView',
@@ -28,7 +33,10 @@ export default {
     HomeNav,
     MainCard,
     Skills,
-    Studies
+    Studies,
+    Experience,
+    Projects,
+    Contact
   },
 }
 </script>
