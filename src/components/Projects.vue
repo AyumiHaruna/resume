@@ -123,7 +123,7 @@ export default {
       modProjects: [
         {
           name: 'Donkey 1981',
-          pic: '../img/projects/thumbs/donkey81.png',
+          pic: 'img/projects/thumbs/donkey81.png',
           tools: ['blender'],
           git: '',
           url: 'https://twitter.com/YumiHeiress/status/1511513269785214985'
