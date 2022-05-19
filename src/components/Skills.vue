@@ -47,7 +47,7 @@ export default {
                 },
                 {
                     name:  'JS',
-                    pic: 'img/jslogo.png',
+                    pic: 'img/jsLogo.png',
                 },
                 {
                     name:  'PHP',
@@ -59,7 +59,7 @@ export default {
                 },
                 {
                     name:  'jQuery',
-                    pic: 'img/jqueryLogo.png',
+                    pic: 'img/jQueryLogo.png',
                 },
                 {
                     name:  'Vue.js',

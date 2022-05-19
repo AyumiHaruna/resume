@@ -71,7 +71,7 @@ export default {
         padding: 5em;
         background-image: url('../assets/footerBG.png');
         background-color: #000;
-        background-size: 50%;
+        background-size: auto 100%;
     }
 
     .contact .info{
