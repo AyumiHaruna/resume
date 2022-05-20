@@ -2,7 +2,7 @@
     <article class="studies">
         <div>
             <h1>Ingeniera en Computación</h1>
-            <h2>UNAM (2017)</h2>
+            <h2>UNAM (2016)</h2>
         </div>        
         
         <img src="../assets/vrspace.png" alt="dibujo de VR">

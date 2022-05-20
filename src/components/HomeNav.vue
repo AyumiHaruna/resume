@@ -9,13 +9,12 @@
       
       <div>
         <ul class="menu" ref="menu">
-          <li><a href="#">Quién_soy?</a></li>
-          <li><a href="#">Habilidades</a></li>
-          <li><a href="#">Experiencia</a></li>
-          <li><a href="#">Estudios</a></li>
-          <li><a href="#">Proyectos</a></li>
-          <li><a href="#">Experimentos</a></li>
-          <li><a href="#">Contacto</a></li>        
+          <li><a href="#about">Quién_soy?</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#studies">Estudios</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>        
         </ul>  
       </div>
 

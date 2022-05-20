@@ -3,18 +3,18 @@
     <HomeNav />      
   </header>
 
-  <MainCard />
+  <MainCard id="about" />
 
   <section class="secBlock">
-    <Skills />
-    <Studies />
+    <Skills id="skills" />
+    <Studies id="studies" />
   </section>
 
-  <Experience />
+  <Experience id="experience" />
 
-  <Projects />
+  <Projects id="projects" />
   
-  <Contact />
+  <Contact id="contact" />
 
 </template>
 
